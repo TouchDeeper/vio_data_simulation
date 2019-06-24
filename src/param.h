@@ -22,14 +22,14 @@ public:
     double t_end = 3600 * 4;  //  
 
     // noise
-    double gyro_bias_sigma = 0.00005;
-    double acc_bias_sigma = 0.0005;
+    double gyro_bias_sigma = 0.0005;
+    double acc_bias_sigma = 0.001;
 
     //double gyro_bias_sigma = 1.0e-5;
     //double acc_bias_sigma = 0.0001;
 
-    double gyro_noise_sigma = 0.015;    // rad/s
-    double acc_noise_sigma = 0.019;      //　m/(s^2)
+    double gyro_noise_sigma = 0.03;    // rad/s
+    double acc_noise_sigma = 0.04;      //　m/(s^2)
 
     double pixel_noise = 1;              // 1 pixel noise
 

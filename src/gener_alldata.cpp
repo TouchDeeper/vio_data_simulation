@@ -15,7 +15,7 @@ int main(int argc, char** argv)
     IMU imuGen(params);
 
     rosbag::Bag bag;
-    bag.open("/home/wang/CLionProjects/VIO/c2/draw_allan_ws/bag/imu.bag", rosbag::bagmode::Write);
+    bag.open("/home/wang/CLionProjects/VIO/c2/draw_allan_ws/bag/imu2.bag", rosbag::bagmode::Write);
 
     ros::Time::init();
     double begin =ros::Time::now().toSec();
